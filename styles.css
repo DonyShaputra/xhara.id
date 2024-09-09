@@ -208,6 +208,16 @@ header {
   overflow: hidden;
 }
 
+.sale__card img {
+  width: 100%;
+  height: auto;
+  max-height: 500px; /* Atur ukuran maksimal gambar */
+  object-fit: cover; /* Agar gambar tetap proporsional */
+  border-bottom: 1px solid #ddd;
+  margin: 0 auto; /* Tengah gambar dalam kontainer */
+  display: block;
+}
+
 .sale__content {
   position: absolute;
   top: 50%;
